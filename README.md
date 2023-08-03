@@ -1,11 +1,12 @@
-# Thesis / Paper Title
-This repository is a companion page for the following thesis / publication:
+# Towards a Sustainability-aware Software Architecture Evaluation for Cloud Based Software Services
+
+<!-- This repository is a companion page for the following thesis / publication: -->
 > Author Names. Publication year. Thesis / Paper title. Publication venue / proceedings.
 
-It contains all the material required for replicating the study, including: X, Y, and Z.
+<!-- It contains all the material required for replicating the study, including: X, Y, and Z. -->
 
-## How to cite us
-The scientific article describing design, execution, and main results of this study is available [here](https://www.google.com).<br> 
+<!-- ## How to cite us
+The scientific article describing design, execution, and main results of this study is available [here](https://www.google.com).<br>
 If this study is helping your research, consider to cite it is as follows, thanks!
 
 ```
@@ -18,9 +19,9 @@ If this study is helping your research, consider to cite it is as follows, thank
   year={},
   publisher={}
 }
-```
+``` -->
 
-## Quick start
+<!-- ## Quick start
 Here a documentation on how to use the replication material should be provided.
 
 ### Getting started
@@ -33,36 +34,19 @@ Here a documentation on how to use the replication material should be provided.
 3. Links to specific folders / files of the repository can be linked in Markdown, for example this is a link to the [src](src/) folder.
 
 ## Repository Structure
-This is the root directory of the repository. The directory is structured as follows:
+This is the root directory of the repository. The directory is structured as follows: -->
 
-    template-replication-package
-     .
-     |
-     |--- src/                             Source code used in the thesis / paper
-     |
-     |--- documentation/                   Further structured documentation of the replication package content
-     |
-     |--- data/                            Data used in the thesis / paper 
+    <!-- template-replication-package
+     .     |
+     |--- data/                            Data used in the thesis / paper
             |
             |--- additional_subfolder/     Subfolders should be further nested to increase readability                 
-  
+   -->
 
-Usually, replication packages should include:
-* a [src](src/) folder, containing the entirety of the source code used in the study,
-* a [data](data/) folder, containing the raw, intermediate, and final data of the study
-* if needed, a [documentation](documentation/) folder, where additional information w.r.t. this README is provided. 
+* a [data](data/) folder contains
+  - data.xlsx: The file contains
+    - List of studies from [our previous work](https://research.vu.nl/ws/portalfiles/portal/217234254/PosterPaper_ICSA23_IFatima_CameraReady.pdf) consisting of a systematic literature review which is used for extraction of SA evaluation inputs, outputs, and steps.
+    - Identified steps of evaluation for each study. For studies that did not provide any information on the steps they followed, we mark their steps as NA (Not Available).
+    - Color-coded steps based on the function they perform and similarities with other steps. These steps are further used to create activity diagrams per method (available as steps.png). Methods that have identical steps are grouped together and represented by a single activity diagram.  The activity diagram contains a legend for color codes.
 
-In addition, the replication package can include additional data/results (in form of raw data, tables, and/or diagrams) which were not included in the study manuscript.
-
-## Replication package naming convention
-The final name of this repository, as appearing in the published article, should be formatted according to the following naming convention:
-`<short conference/journal name>-<yyyy>-<semantic word>-<semantic word>-rep-pkg`
-
-For example, the repository of a research published at the International conference on ICT for Sustainability (ICT4S) in 2022, which investigates cloud tactics would be named `ICT4S-2022-cloud-tactics-rep-pkg`
-
-## Preferred repository license
-As general indication, we suggest to use:
-* [MIT license](https://opensource.org/licenses/MIT) for code-based repositories, and 
-* [Creative Commons Attribution 4.0	(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) for text-based repository (papers, docts, etc.).
-
-For more information on how to add a license to your replication package, refer to the [official GitHUb documentation](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository).
+  - steps.png: The file contains color-coded activity diagrams showing steps of Software Architecture Evaluation Methods
