@@ -7,3 +7,5 @@ The [data](data/) folder contains
     - Color-coded steps based on the function they perform and similarities with other steps. These steps are further used to create activity diagrams per method (available as steps.png). Methods that have identical steps are grouped together and represented by a single activity diagram.  The activity diagram contains a legend for color codes.
 
   - steps.png: The file contains color-coded activity diagrams showing steps of Software Architecture Evaluation Methods
+
+The publication can be found [here](https://research.vu.nl/en/publications/towards-a-sustainability-aware-software-architecture-evaluation-f)
